@@ -1,5 +1,5 @@
 macro_rules! vec_strs {
-    (   
+    (
         //start repetition
         $(
             $element:expr
@@ -16,7 +16,7 @@ macro_rules! vec_strs {
                 // Each repeat will contain the follwing statement, with
                 // $element replaced with the corresponding expression
                 v.push(format!("{}", $element));
-            )* 
+            )*
             v
         }
     };
