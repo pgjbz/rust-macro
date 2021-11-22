@@ -7,6 +7,9 @@ And copy and pas init.vim to ~/.config/nvim
 
 Open nvim and run 'PlugInstall'
 
+Use command 'CocInstall coc-rust-analyzer'
+
+To install Rust analyzer
 
 # Macro rules
 

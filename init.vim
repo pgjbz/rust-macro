@@ -1,3 +1,4 @@
+" Use release branch (recommend)
 " Specify a directory for plugins
 call plug#begin('~/.local/share/nvim/site/plugged')
 
@@ -11,6 +12,7 @@ Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'scrooloose/nerdcommenter'
 Plug 'rust-lang/rust.vim'
 "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'christoomey/vim-tmux-navigator'
 
