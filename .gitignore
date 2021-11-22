@@ -1,6 +1,7 @@
 *
 !*.rs
 !.gitignore
-
+!README.md
 !*/
+!init.vim
 
