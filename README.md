@@ -1,6 +1,4 @@
 Install:
-
-- https://github.com/togglebyte/nvim
 - https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/
 
 And copy and pas init.vim to ~/.config/nvim
